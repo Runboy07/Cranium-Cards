@@ -8,7 +8,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#B160AA">
 
         <TextView
             android:id="@+id/textView"
@@ -16,18 +17,19 @@
             android:layout_height="wrap_content"
             android:text="Cranium Cards"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="34sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="383dp" />
+            tools:layout_editor_absoluteY="375dp" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="put logo here"
-            tools:layout_editor_absoluteX="164dp"
-            tools:layout_editor_absoluteY="199dp" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="139dp"
+            tools:src="@drawable/cranium_cards_logo" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/Purple4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:background="@drawable/rounded_button_background"
+            android:textColor="@color/Purple4"
+            android:backgroundTint="@color/Purple6"
+            android:layout_margin="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:background="@drawable/rounded_button_background"
+            android:textColor="@color/Purple4"
+            android:backgroundTint="@color/Purple6"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FlashCard Collection 1"
+            android:textSize="30sp"
+            android:textColor="@color/Purple1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:onClick="flipCard"
+        android:backgroundTint="@color/Purple2"
+        android:background="@drawable/rounded_button_background"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/cardBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/answer" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cardFront"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question"/>
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/Purple3"
+            android:text="Previous Card"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/Purple3"
+            android:layout_weight="1"
+            android:text="Next Card"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</LinearLayout>

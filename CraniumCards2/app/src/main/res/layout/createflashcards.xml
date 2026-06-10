@@ -13,26 +13,30 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_margin="5dp">
+
         <Button
+            android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/Purple6"
             android:text="Back"
             android:textAllCaps="false"
-            android:textSize="15dp"
-            android:background="@drawable/rounded_button_background"
             android:textColor="@color/Purple4"
-            android:backgroundTint="@color/Purple6"
-            android:layout_margin="5dp"/>
+            android:textSize="15dp" />
+
         <Button
+            android:id="@+id/home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/Purple6"
             android:text="Home"
             android:textAllCaps="false"
-            android:textSize="15dp"
-            android:background="@drawable/rounded_button_background"
             android:textColor="@color/Purple4"
-            android:backgroundTint="@color/Purple6"
-            android:layout_margin="5dp"/>
+            android:textSize="15dp" />
 </LinearLayout>
 
 
@@ -103,18 +107,18 @@
             android:layout_margin="5dp"/>
 
         <Button
+            android:id="@+id/create"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Create"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/rounded_button_background"
             android:backgroundTint="@color/Purple4"
-            android:textColor="@color/Purple2"
-            android:textSize="25sp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="40dp"
             android:padding="15dp"
-            android:layout_gravity="center"
-            />
+            android:text="Create"
+            android:textColor="@color/Purple2"
+            android:textSize="25sp" />
 
 
     </LinearLayout>

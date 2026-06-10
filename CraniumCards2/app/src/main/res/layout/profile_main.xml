@@ -43,6 +43,7 @@
     android:padding="10dp">
 
     <Button
+        android:id="@+id/viewCards"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -54,6 +55,7 @@
         android:textSize="24sp" />
 
     <Button
+        android:id="@+id/createCards"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -65,6 +67,7 @@
         android:textSize="24sp" />
 
     <Button
+        android:id="@+id/shareCards"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -76,6 +79,7 @@
         android:textSize="24sp" />
 
     <Button
+        android:id="@+id/deleteCards"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -87,6 +91,7 @@
         android:textSize="24sp" />
 
     <Button
+        android:id="@+id/profileSettings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"

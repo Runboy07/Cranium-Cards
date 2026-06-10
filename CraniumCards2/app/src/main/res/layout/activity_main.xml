@@ -2,56 +2,34 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/Purple5"
-    android:padding="10dp">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-
-    <ImageView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:cropToPadding="true"
-        android:orientation="vertical"
-        android:src="@drawable/cclogo" />
-
-    <TextView
-        android:id="@+id/textView"
-        style="@style/CraniumCards"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/Purple5"
-        android:orientation="vertical"
-        android:text="Cranium Cards"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cranium Cards"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="383dp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="189dp"
-        android:background="@color/Purple5"
-        android:text="The FlashCard App"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textSize="20sp"
-        android:textStyle="italic" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="put logo here"
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="199dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:padding="10dp"
-        android:text="Welcome"
-        android:textColor="@color/Purple6"
-        android:backgroundTint="@color/Purple4"
-        android:background="@drawable/rounded_button_background"
-        android:textSize="20sp" />
 
 </LinearLayout>
-
-

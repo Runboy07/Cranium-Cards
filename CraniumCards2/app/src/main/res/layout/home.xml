@@ -19,6 +19,7 @@
 
 
     <Button
+        android:id="@+id/back"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="@drawable/back" />
@@ -36,10 +37,10 @@
         android:textStyle="italic" />
 
     <Button
+        android:id="@+id/profile"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="@drawable/pp"
-        />
+        android:background="@drawable/pp" />
 </LinearLayout>
 
     <ScrollView
@@ -76,14 +77,15 @@
                 android:layout_margin="5dp"/>
 
             <Button
+                android:id="@+id/view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/rounded_button_background"
                 android:backgroundTint="@color/Purple4"
-                android:textColor="@color/Purple6"
                 android:text="View"
                 android:textAlignment="center"
+                android:textColor="@color/Purple6"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -107,14 +109,15 @@
                 android:layout_margin="5dp"/>
 
             <Button
+                android:id="@+id/view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/rounded_button_background"
                 android:backgroundTint="@color/Purple4"
-                android:textColor="@color/Purple6"
                 android:text="View"
                 android:textAlignment="center"
+                android:textColor="@color/Purple6"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -138,14 +141,15 @@
                 android:layout_margin="5dp"/>
 
             <Button
+                android:id="@+id/view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/rounded_button_background"
                 android:backgroundTint="@color/Purple4"
-                android:textColor="@color/Purple6"
                 android:text="View"
                 android:textAlignment="center"
+                android:textColor="@color/Purple6"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -169,14 +173,15 @@
                 android:layout_margin="5dp"/>
 
             <Button
+                android:id="@+id/view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/rounded_button_background"
                 android:backgroundTint="@color/Purple4"
-                android:textColor="@color/Purple6"
                 android:text="View"
                 android:textAlignment="center"
+                android:textColor="@color/Purple6"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -200,14 +205,15 @@
                 android:layout_margin="5dp"/>
 
             <Button
+                android:id="@+id/view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/rounded_button_background"
                 android:backgroundTint="@color/Purple4"
-                android:textColor="@color/Purple6"
                 android:text="View"
                 android:textAlignment="center"
+                android:textColor="@color/Purple6"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -231,14 +237,15 @@
                 android:layout_margin="5dp"/>
 
             <Button
+                android:id="@+id/view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/rounded_button_background"
                 android:backgroundTint="@color/Purple4"
-                android:textColor="@color/Purple6"
                 android:text="View"
                 android:textAlignment="center"
+                android:textColor="@color/Purple6"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -262,14 +269,15 @@
                 android:layout_margin="5dp"/>
 
             <Button
+                android:id="@+id/view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/rounded_button_background"
                 android:backgroundTint="@color/Purple4"
-                android:textColor="@color/Purple6"
                 android:text="View"
                 android:textAlignment="center"
+                android:textColor="@color/Purple6"
                 android:textSize="20sp" />
         </LinearLayout>
 

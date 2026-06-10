@@ -11,6 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CraniumCards">
+
+        <activity
+            android:name=".main_activity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CraniumCards">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".profileActivityy"
             android:exported="true"
@@ -22,6 +34,67 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".homeActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CraniumCards">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".signInActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CraniumCards">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".viewFlashCardActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CraniumCards">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".createFlashCardsActivity1"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CraniumCards">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".createFlashCardsActivity2"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CraniumCards">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
